@@ -24,6 +24,6 @@ server {
 ```
 
 ```sh
-ln -s /etc/nginx/site-available/default /etc/nginx/sites-enabled/nginx
+ln -s /etc/nginx/site-available/default /etc/nginx/sites-enabled/default
 ```
 
