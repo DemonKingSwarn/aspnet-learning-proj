@@ -27,3 +27,25 @@ server {
 ln -s /etc/nginx/site-available/default /etc/nginx/sites-enabled/default
 ```
 
+## Dotnet and ASP.NET Installation and Project Setup
+
+**Installation**
+
+```sh
+paru -S dotnet-runtime dotnet-sdk aspnet-runtime
+```
+
+**Setup**
+
+- List the available dotnet templates if want for another project
+
+```sh
+dotnet new list
+```
+
+- Create a directory and cd into it and select ASP.NET mvc template
+
+```sh
+mkdir aspnet-proj && cd aspnet-proj
+dotnet new mvc
+```
