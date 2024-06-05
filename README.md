@@ -49,3 +49,17 @@ dotnet new list
 mkdir aspnet-proj && cd aspnet-proj
 dotnet new mvc
 ```
+
+## Run and Build
+
+- Run
+
+```sh
+dotnet run
+```
+
+- Publish
+
+```sh
+dotnet publish
+```
